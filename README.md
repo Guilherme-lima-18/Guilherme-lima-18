@@ -5,11 +5,6 @@
 Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, estou cursando Engenharia da computação na Unisal-Campinas. Me interesso demais por tecnologia e compartilho meu conhecimento através desta página no GitHub.
 
 <p align="center">
-  <a href="https://github.com/Guiherme-lima-18">
-    <img src="https://user-images.githubusercontent.com/20955511/199138068-0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png" alt="Guilherme Lima" /></a>
-</p>
-
-<p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
   <a href="https://github.com/Guilher-lima-18/readme-typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F76565&width=435&lines=%3C%3D%3E+Programador+Iniciante+%3C%3D%3E&center=true&width=440&height=45&vCenter=true&pause=1000&size=22" /></a>
