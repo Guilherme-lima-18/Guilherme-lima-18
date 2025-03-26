@@ -18,7 +18,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
     href="https://instagram.com/gui_lima2006"><img width="32px" alt="Instagram" title="DenverCoder1 Dev.to" 
-    src="https://imgur.com/FTfZyuk.png"></a>
+    src="https://br.pinterest.com/pin/1900024837658347/.png"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
     href="https://ko-fi.com/jlawrence"><img width="32px" alt="Ko-fi" title="Buy me a coffee" 
