@@ -15,14 +15,12 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
     src="https://i.imgur.com/yRpa1dQ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
-    href="https://instagram.com/gui_lima2006"><img width="32px" alt="Instagram" title="DenverCoder1 Dev.to" 
-    src="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram"></a>
+    href="https://instagram.com/gui_lima2006"><img width="32px" alt="Instagram" title="Instagram" 
+    src="https://github.com/user-attachments/assets/59e4abc5-019c-434f-bc0c-e0f298189d46.png"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
     href="https://ko-fi.com/jlawrence"><img width="32px" alt="Ko-fi" title="Buy me a coffee" 
     src="https://i.imgur.com/PpLeD3K.png"/></a>
-<!--   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="http://eyl327.mywebcommunity.org/promos/"><img width="32px" alt="Free Stuff" title="Free gifts for you" src="https://i.imgur.com/0uVwkoZ.png"/></a> -->
 </p>
 
 <br/>
