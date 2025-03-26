@@ -75,9 +75,6 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
     style="padding-right: 10px;" 
     src="https://www.google.com/imgres?q=imagem%20C%20linguagem&imgurl=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2Fc-programming.png" 
 />
-<img 
-  ![Texto Alternativo](img/https://www.google.com/imgres?q=imagem%20C%20linguagem&imgurl=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2Fc-programming.png)
-/>
 
 <br/>
 <br/>
