@@ -7,28 +7,8 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
   <a href="https://github.com/Guilher-lima-18/readme-typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F76565&width=435&lines=%3C%3D%3E+Programador+Iniciante+%3C%3D%3E&center=true&width=440&height=45&vCenter=true&pause=1000&size=22" /></a>
 </p>
-
-<!-- Social icons section -->
-<p align="center">
-  <a 
-    href="https://www.linkedin.com/in/guilherme-lima-061a36351/"><img width="32px" alt="LinkedIn" title="LinkedIn" 
-    src="https://i.imgur.com/yRpa1dQ.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a 
-    href="https://instagram.com/gui_lima2006"><img width="32px" alt="Instagram" title="Instagram" 
-    src="![instagram (1)](https://github.com/user-attachments/assets/26b1515c-5391-4be1-8fda-a1f930453428)
-"></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a 
-    href="https://ko-fi.com/jlawrence"><img width="32px" alt="Ko-fi" title="Buy me a coffee" 
-    src="https://i.imgur.com/PpLeD3K.png"/></a>
-</p>
-
 <br/>
 
-<!-- Social badges section -->
-<!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
-<!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
 <p align="center">
   <a href="https://www.youtube.com/c/DevProTips?sub_confirmation=1">
     <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://freshidea.com/jonah/app/youtube-stats-badges/subscribers-badge.php"/></a>
