@@ -5,7 +5,7 @@
 Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, estou cursando Engenharia da computação na Unisal-Campinas. Me interesso demais por tecnologia e compartilho meu conhecimento através desta página no GitHub.
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1">
+  <a href="https://github.com/Guiherme-lima-18">
     <img src="https://user-images.githubusercontent.com/20955511/199138068-0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png" alt="Jonah Lawrence" /></a>
 </p>
 
