@@ -11,7 +11,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <a href="https://instagram.com/gui_lima2006/readme-typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F76565&width=435&lines=%3C%3D%3E+Programador+Iniciante+%3C%3D%3E&center=true&width=440&height=45&vCenter=true&pause=1000&size=22" /></a>
 </p>
 
