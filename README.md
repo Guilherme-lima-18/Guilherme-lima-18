@@ -18,7 +18,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
 <!-- Social icons section -->
 <p align="center">
   <a 
-    href="https://www.linkedin.com/in/Guilherme Lima/"><img width="32px" alt="LinkedIn" title="LinkedIn" 
+    href="https://www.linkedin.com/in/guilherme-lima/"><img width="32px" alt="LinkedIn" title="LinkedIn" 
     src="https://i.imgur.com/yRpa1dQ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
