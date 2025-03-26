@@ -73,7 +73,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
     title="C"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://www.google.com/imgres?q=imagem%20C%20linguagem&imgurl=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2Fc-programming.png&imgrefurl=https%3A%2F%2Ficons8.com.br%2Ficons%2Fset%2Fc-programming&docid=q9MccbBCEWoXiM&tbnid=xLSx_G14rn63TM&vet=12ahUKEwiftoS9o6iMAxWxmZUCHf11AX4QM3oECBoQAA..i&w=600&h=600&hcb=2&ved=2ahUKEwiftoS9o6iMAxWxmZUCHf11AX4QM3oECBoQAA" 
+    src="https://www.google.com/imgres?q=imagem%20C%20linguagem&imgurl=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2Fc-programming.png&imgrefurl=https%3A%2F%2Ficons8.com.br%2Ficons%2Fset%2Fc-programming&docid=q9MccbBCEWoXiM&tbnid=xLSx_G14rn63TM&vet=12ahUKEwiftoS9o6iMAxWxmZUCHf11AX4QM3oECBoQAA..i&w=600&h=600&hcb=2&ved=2ahUKEwiftoS9o6iMAxWxmZUCHf11AX4QM3oECBoQAA.png" 
 />
 
 <br/>
