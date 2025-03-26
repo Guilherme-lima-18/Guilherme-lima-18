@@ -1,14 +1,14 @@
 # 👩🏻‍💻 Guilherme
 
-**`Desenvolvedora FullStack`**
+**`Desenvolvedor Iniciante`**
 
 Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, estou cursando Engenharia da computação na Unisal-Campinas. Me interesso demais por tecnologia e compartilho meu conhecimento através desta página no GitHub.
 
 <p align="left">
-    <a href="https://www.youtube.com/@larissakich?sub_confirmation=1">
+    <a href="https://www.instagram.com/gui_lima2006/">
         <img 
-            alt="youtube subscribers" 
-            title="Inscreva-se no meu canal" 
+            alt="Instagram" 
+            title="Instagram" 
             src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCo-gJ8RnTn5akHqHvO55DVA?color=%23E05D44&label=Inscreva-se&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"
         />
     </a>
@@ -155,16 +155,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
 <br/>
 <br/>
 
-### 📊 Estatísticas
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=LGuilherme&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
 
 
 
