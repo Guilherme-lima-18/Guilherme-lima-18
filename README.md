@@ -9,7 +9,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
         <img 
             alt="Instagram" 
             title="Instagram" 
-            src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCo color=%23E05D44&label=Instagram&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"
+            src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCo-gJ8RnTn5akHqHvO55DVA?color=%23E05D44&label=Instagram&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"
         />
     </a>
     <a href="https://www.youtube.com/@larissakich">
