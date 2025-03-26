@@ -9,8 +9,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/c/DevProTips"><img width="32px" alt="Youtube" title="Youtube" src="![image](https://github.com/user-attachments/assets/6edce986-b6a9-43ab-bc6c-6358c057e150)
-"/></a>
+  <a href="https://www.youtube.com/c/DevProTips"><img width="32px" alt="Youtube" title="Youtube" src="https://github.com/user-attachments/assets/6edce986-b6a9-43ab-bc6c-6358c057e150.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.linkedin.com/in/jonah-lawrence/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
