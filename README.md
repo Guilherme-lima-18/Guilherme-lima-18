@@ -1,7 +1,5 @@
 # 👩🏻‍💻 Guilherme
 
-**`Desenvolvedor Iniciante`**
-
 Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, estou cursando Engenharia da computação na Unisal-Campinas. Me interesso demais por tecnologia e compartilho meu conhecimento através desta página no GitHub.
 
 <p align="center">
@@ -18,7 +16,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
     href="https://instagram.com/gui_lima2006"><img width="32px" alt="Instagram" title="DenverCoder1 Dev.to" 
-    src="hhttps://pin.it/6eFykROxV"></a>
+    src="https://pin.it/6eFykROxV.png"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a 
     href="https://ko-fi.com/jlawrence"><img width="32px" alt="Ko-fi" title="Buy me a coffee" 
