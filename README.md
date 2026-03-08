@@ -11,7 +11,7 @@ Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, es
 <p align="center">
   <a href="https://www.linkedin.com/in/guilherme-lima-061a36351/"><img width="32px" alt="Linkedin" title="Linkedin" src="https://imgur.com/OQUXwNp.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.instagram.com/gui_lima2006"><img width="32px" alt="Instagram" title="Instagram" src="https://imgur.com/OWdUupI.png"/></a>
+  <a href="https://www.instagram.com/lima.guilherme16"><img width="32px" alt="Instagram" title="Instagram" src="https://imgur.com/OWdUupI.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   
 </p>
