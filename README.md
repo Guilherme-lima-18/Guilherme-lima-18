@@ -1,6 +1,6 @@
 # 👩🏻‍💻 Guilherme
 
-Me chamo Guilherme, tenho 18 anos e sou natural de Campinas - SP. Atualmente, estou cursando Engenharia da computação na Unisal-Campinas. Me interesso demais por tecnologia e compartilho meu conhecimento através desta página no GitHub.
+Me chamo Guilherme, tenho 19 anos e sou natural de Campinas - SP. Atualmente, estou cursando Engenharia da computação na Unisal-Campinas. Me interesso demais por tecnologia e compartilho meu conhecimento através desta página no GitHub.
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
