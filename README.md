@@ -64,44 +64,52 @@ Me chamo Guilherme, tenho 19 anos e sou natural de Campinas - SP. Atualmente, es
 />
 <img 
     align="left" 
-    alt="Java" 
-    title="Java"
+    alt="spring" 
+    title="spring"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
 />
 <img 
     align="left" 
-    alt="Java" 
-    title="Java"
+    alt="fedora" 
+    title="fedora"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-plain.svg"
 />
 <img 
     align="left" 
-    alt="Java" 
-    title="Java"
+    alt="linux" 
+    title="linux"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
 />
 <img 
     align="left" 
-    alt="Java" 
-    title="Java"
+    alt="maven" 
+    title="maven"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg"
 />
 <img 
     align="left" 
-    alt="Java" 
-    title="Java"
+    alt="postgresql" 
+    title="postgresql"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
 />
+<img 
+    align="left" 
+    alt="C#" 
+    title="C#"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+/>        
 
 <br/>
 <br/>
