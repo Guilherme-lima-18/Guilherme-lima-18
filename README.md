@@ -1,4 +1,4 @@
-```markdown
+
    # 👨🏻‍💻 Guilherme
 
    Hi there! I'm **Guilherme**, a 19-year-old developer from **Campinas - SP, Brazil**. I'm currently studying **Computer Engineering at Unisal-Campinas** and working as a **Developer at PowerBizz**. I'm
@@ -82,4 +82,4 @@
    <p align="center">
      <i>"The only way to do great work is to love what you do." — Steve Jobs</i>
    </p>
- ```
+ 
