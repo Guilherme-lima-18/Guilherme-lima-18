@@ -27,10 +27,6 @@
      <a href="https://www.instagram.com/lima.guilherme16">
        <img width="32px" alt="Instagram" title="Instagram" src="https://imgur.com/OWdUupI.png" />
      </a>
-     &#8287;&#8287;&#8287;&#8287;&#8287;
-     <a href="https://github.com/Guilherme-lima-18">
-       <img width="32px" alt="GitHub" title="GitHub" src="https://imgur.com/YbBysnY.png" />
-     </a>
    </p>
 
    <br/>
