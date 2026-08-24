@@ -289,6 +289,247 @@ Most of what I know started as a bug I refused to ignore.
 </div>
 ```
 
+```aura width=880 height=356
+<div style={{
+  width: '100%', height: '100%', background: '#0a0506',
+  display: 'flex', flexDirection: 'column', fontFamily: 'Inter',
+  borderRadius: 14, border: '1px solid rgba(255,77,77,0.24)',
+  overflow: 'hidden',
+}}>
+
+  <div style={{
+    display: 'flex', flexDirection: 'row', alignItems: 'center',
+    height: 38, paddingLeft: 16, paddingRight: 16, gap: 8,
+    borderBottom: '1px solid rgba(255,77,77,0.20)',
+    background: 'rgba(255,59,59,0.05)',
+  }}>
+    <div style={{ display: 'flex', width: 9, height: 9, borderRadius: 5, background: '#FF5C5C' }} />
+    <div style={{ display: 'flex', width: 9, height: 9, borderRadius: 5, background: '#B81B2A' }} />
+    <div style={{ display: 'flex', width: 9, height: 9, borderRadius: 5, background: '#640E17' }} />
+    <div style={{
+      display: 'flex', marginLeft: 14, fontSize: 12, fontWeight: 700,
+      color: 'rgba(255,190,190,0.68)', letterSpacing: '1.4px',
+    }}>
+      gh stats --graph
+    </div>
+  </div>
+
+  <div style={{
+    display: 'flex', flexDirection: 'column', flexGrow: 1,
+    paddingLeft: 28, paddingRight: 28, paddingTop: 18, paddingBottom: 18, gap: 16,
+  }}>
+
+    <div style={{ display: 'flex', flexDirection: 'row', gap: 10 }}>
+      {[
+        ['repos',     github?.stats?.totalRepos   ?? 0],
+        ['commits',   github?.stats?.totalCommits ?? 0],
+        ['followers', github?.user?.followers     ?? 0],
+        ['langs',     (github?.languages ?? []).length],
+      ].map(function (s, i) {
+        return (
+          <div key={s[0]} style={{
+            display: 'flex', flexDirection: 'column', width: 196, gap: 2,
+            paddingLeft: 14, paddingRight: 14, paddingTop: 10, paddingBottom: 10,
+            borderRadius: 8, background: 'rgba(255,59,59,0.06)',
+            border: '1px solid rgba(255,77,77,0.26)',
+          }}>
+            <div style={{
+              display: 'flex', fontSize: 26, fontWeight: 700,
+              color: '#ffffff', letterSpacing: '-0.8px', lineHeight: 1.1,
+            }}>
+              {String(s[1])}
+            </div>
+            <div style={{
+              display: 'flex', fontSize: 11, fontWeight: 700,
+              color: 'rgba(255,150,150,0.72)', letterSpacing: '1.2px',
+            }}>
+              {s[0]}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
+      <div style={{
+        display: 'flex', fontSize: 11, fontWeight: 700,
+        color: 'rgba(255,150,150,0.62)', letterSpacing: '1.6px', marginBottom: 2,
+      }}>
+        LANGUAGE DISTRIBUTION
+      </div>
+
+      {(function () {
+        var langs = (github?.languages ?? []).slice(0, 6);
+        var ramp = ['#FF3B3B', '#F03242', '#E02434', '#C71F2E', '#A81828', '#8E1420'];
+        var max = 1;
+        for (var k = 0; k < langs.length; k++) {
+          if (langs[k].percentage > max) max = langs[k].percentage;
+        }
+        return langs.map(function (l, i) {
+          var w = Math.max(6, Math.round((l.percentage / max) * 476));
+          return (
+            <div key={l.name} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', height: 24, gap: 12 }}>
+              <div style={{
+                display: 'flex', width: 96, fontSize: 12, fontWeight: 700,
+                color: 'rgba(255,232,232,0.92)',
+              }}>
+                {l.name}
+              </div>
+              <div style={{
+                display: 'flex', width: 476, height: 10, borderRadius: 5,
+                background: 'rgba(255,77,77,0.10)',
+              }}>
+                <div style={{ display: 'flex', width: w, height: 10, borderRadius: 5, background: ramp[i % 6] }} />
+              </div>
+              <div style={{
+                display: 'flex', width: 46, fontSize: 12, fontWeight: 700,
+                color: 'rgba(255,150,150,0.82)', justifyContent: 'flex-end',
+              }}>
+                {l.percentage + '%'}
+              </div>
+            </div>
+          );
+        });
+      })()}
+    </div>
+
+  </div>
+</div>
+```
+
+```aura width=880 height=46
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 10,
+  border: '1px solid rgba(255,77,77,0.24)', paddingLeft: 18, paddingRight: 18, gap: 9,
+}}>
+  <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: '#FF3B3B' }}>$</div>
+  <div style={{ display: 'flex', fontSize: 13, color: 'rgba(255,190,190,0.62)', letterSpacing: '0.6px' }}>ls ~/projects</div>
+  <div style={{ display: 'flex', flexGrow: 1 }} />
+  <div style={{ display: 'flex', fontSize: 11, fontWeight: 700, color: 'rgba(255,140,140,0.50)', letterSpacing: '1.2px' }}>6 selected</div>
+</div>
+```
+
+```aura width=432 height=66 link="https://github.com/Guilherme-lima-18/RPG-Go" inline align=center
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 8,
+  border: '1px solid rgba(255,77,77,0.26)',
+  paddingLeft: 14, paddingRight: 14, gap: 11,
+}}>
+  <div style={{ display: 'flex', width: 3, height: 38, borderRadius: 2, background: '#FF3B3B' }} />
+  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, gap: 4 }}>
+    <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: 'rgba(255,240,240,0.95)' }}>RPG Go</div>
+    <div style={{ display: 'flex', fontSize: 10, color: 'rgba(255,175,175,0.62)' }}>A simple RPG built in Go for practice</div>
+  </div>
+  <div style={{
+    display: 'flex', alignItems: 'center', paddingLeft: 9, paddingRight: 9, paddingTop: 4, paddingBottom: 4,
+    borderRadius: 5, background: 'rgba(255,59,59,0.08)', border: '1px solid rgba(255,77,77,0.28)',
+    fontSize: 10, fontWeight: 700, color: '#FF3B3B',
+  }}>Go</div>
+</div>
+```
+
+```aura width=432 height=66 link="https://github.com/Guilherme-lima-18/ProjetoMassager" inline align=center
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 8,
+  border: '1px solid rgba(255,77,77,0.26)',
+  paddingLeft: 14, paddingRight: 14, gap: 11,
+}}>
+  <div style={{ display: 'flex', width: 3, height: 38, borderRadius: 2, background: '#F03242' }} />
+  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, gap: 4 }}>
+    <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: 'rgba(255,240,240,0.95)' }}>ProjetoMassager</div>
+    <div style={{ display: 'flex', fontSize: 10, color: 'rgba(255,175,175,0.62)' }}>Full-stack application in TypeScript</div>
+  </div>
+  <div style={{
+    display: 'flex', alignItems: 'center', paddingLeft: 9, paddingRight: 9, paddingTop: 4, paddingBottom: 4,
+    borderRadius: 5, background: 'rgba(255,59,59,0.08)', border: '1px solid rgba(255,77,77,0.28)',
+    fontSize: 10, fontWeight: 700, color: '#F03242',
+  }}>TypeScript</div>
+</div>
+```
+
+```aura width=432 height=66 link="https://github.com/Guilherme-lima-18/-Java-Banking-System" inline align=center
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 8,
+  border: '1px solid rgba(255,77,77,0.26)',
+  paddingLeft: 14, paddingRight: 14, gap: 11,
+}}>
+  <div style={{ display: 'flex', width: 3, height: 38, borderRadius: 2, background: '#E02434' }} />
+  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, gap: 4 }}>
+    <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: 'rgba(255,240,240,0.95)' }}>Java Banking System</div>
+    <div style={{ display: 'flex', fontSize: 10, color: 'rgba(255,175,175,0.62)' }}>Deposit, withdrawal and balance simulation</div>
+  </div>
+  <div style={{
+    display: 'flex', alignItems: 'center', paddingLeft: 9, paddingRight: 9, paddingTop: 4, paddingBottom: 4,
+    borderRadius: 5, background: 'rgba(255,59,59,0.08)', border: '1px solid rgba(255,77,77,0.28)',
+    fontSize: 10, fontWeight: 700, color: '#E02434',
+  }}>Java</div>
+</div>
+```
+
+```aura width=432 height=66 link="https://github.com/Guilherme-lima-18/Java-OOP-Project---Vehicle-System" inline align=center
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 8,
+  border: '1px solid rgba(255,77,77,0.26)',
+  paddingLeft: 14, paddingRight: 14, gap: 11,
+}}>
+  <div style={{ display: 'flex', width: 3, height: 38, borderRadius: 2, background: '#E02434' }} />
+  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, gap: 4 }}>
+    <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: 'rgba(255,240,240,0.95)' }}>Java OOP Project — Vehicle System</div>
+    <div style={{ display: 'flex', fontSize: 10, color: 'rgba(255,175,175,0.62)' }}>OOP modeling of a vehicle system</div>
+  </div>
+  <div style={{
+    display: 'flex', alignItems: 'center', paddingLeft: 9, paddingRight: 9, paddingTop: 4, paddingBottom: 4,
+    borderRadius: 5, background: 'rgba(255,59,59,0.08)', border: '1px solid rgba(255,77,77,0.28)',
+    fontSize: 10, fontWeight: 700, color: '#E02434',
+  }}>Java</div>
+</div>
+```
+
+```aura width=432 height=66 link="https://github.com/Guilherme-lima-18/Java-Anotation-System" inline align=center
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 8,
+  border: '1px solid rgba(255,77,77,0.26)',
+  paddingLeft: 14, paddingRight: 14, gap: 11,
+}}>
+  <div style={{ display: 'flex', width: 3, height: 38, borderRadius: 2, background: '#E02434' }} />
+  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, gap: 4 }}>
+    <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: 'rgba(255,240,240,0.95)' }}>Java Anotation System</div>
+    <div style={{ display: 'flex', fontSize: 10, color: 'rgba(255,175,175,0.62)' }}>Java annotations and reflection</div>
+  </div>
+  <div style={{
+    display: 'flex', alignItems: 'center', paddingLeft: 9, paddingRight: 9, paddingTop: 4, paddingBottom: 4,
+    borderRadius: 5, background: 'rgba(255,59,59,0.08)', border: '1px solid rgba(255,77,77,0.28)',
+    fontSize: 10, fontWeight: 700, color: '#E02434',
+  }}>Java</div>
+</div>
+```
+
+```aura width=432 height=66 link="https://github.com/Guilherme-lima-18/Projeto-Site-IA" inline align=center
+<div style={{
+  width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
+  fontFamily: 'Inter', background: '#0a0506', borderRadius: 8,
+  border: '1px solid rgba(255,77,77,0.26)',
+  paddingLeft: 14, paddingRight: 14, gap: 11,
+}}>
+  <div style={{ display: 'flex', width: 3, height: 38, borderRadius: 2, background: '#A81828' }} />
+  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, gap: 4 }}>
+    <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, color: 'rgba(255,240,240,0.95)' }}>Projeto Site IA</div>
+    <div style={{ display: 'flex', fontSize: 10, color: 'rgba(255,175,175,0.62)' }}>AI-themed website built with HTML/CSS</div>
+  </div>
+  <div style={{
+    display: 'flex', alignItems: 'center', paddingLeft: 9, paddingRight: 9, paddingTop: 4, paddingBottom: 4,
+    borderRadius: 5, background: 'rgba(255,59,59,0.08)', border: '1px solid rgba(255,77,77,0.28)',
+    fontSize: 10, fontWeight: 700, color: '#A81828',
+  }}>CSS</div>
+</div>
+```
+
 ```aura width=880 height=52
 <div style={{
   width: '100%', height: '100%', display: 'flex', flexDirection: 'row',

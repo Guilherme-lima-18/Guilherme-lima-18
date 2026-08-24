@@ -1,8 +1,12 @@
-name: Check README
+name: Build README
 
-# O README.md e os SVGs sao gerados a partir de readme.source.md e commitados
-# junto. Este workflow so confere se o que esta commitado bate com o que a
-# fonte gera. Ele NAO escreve no repositorio: nada de commit automatico.
+# O README.md e os SVGs sao gerados a partir de readme.source.md.
+# Como os blocos de estatisticas embutem dados vivos do GitHub (commits,
+# repos, distribuicao de linguagens), este workflow rebuilda e commita o
+# resultado sozinho: diariamente para manter os numeros frescos, e a cada
+# push que altere a fonte.
+#
+# Ele NAO roda em pull_request de forks (nao teria permissao de escrita).
 
 on:
   push:
@@ -11,17 +15,22 @@ on:
       - 'readme.source.md'
       - '.github/img/**'
       - '.github/workflows/readme-aura.yml'
-  pull_request:
-    paths:
-      - 'readme.source.md'
-      - '.github/img/**'
+  schedule:
+    # 06:00 UTC = 03:00 em Sao Paulo
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
+# Necessario para commitar o README regenerado de volta no repositorio.
 permissions:
-  contents: read
+  contents: write
+
+# Evita duas execucoes commitando ao mesmo tempo.
+concurrency:
+  group: readme-aura
+  cancel-in-progress: false
 
 jobs:
-  check:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -42,14 +51,18 @@ jobs:
             --assets .github/assets \
             --github-user Guilherme-lima-18
 
-      - name: Fail if the committed output is stale
+      - name: Commit the regenerated README
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "::error::README.md e/ou .github/assets estao desatualizados em relacao a readme.source.md."
-            echo "Rode localmente:  npx readme-aura build -g Guilherme-lima-18  e commite o resultado."
-            echo ""
-            echo "Arquivos fora de sincronia:"
-            git status --porcelain
-            exit 1
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nada mudou: README ja esta em dia."
+            exit 0
           fi
-          echo "README esta em dia com readme.source.md."
+
+          echo "Arquivos alterados:"
+          git status --porcelain
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Atualiza os graficos do README com os dados do GitHub"
+          git push
