@@ -165,7 +165,7 @@
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'row', gap: 7, flexWrap: 'wrap', marginTop: 2 }}>
-        {['java', 'spring', 'typescript', 'linux'].map(function (tag, i) {
+        {['java', 'go', 'aws', 'spring', 'linux'].map(function (tag, i) {
           return (
             <div key={tag + '-' + i} style={{
               display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 6,
@@ -247,11 +247,11 @@ Most of what I know started as a bug I refused to ignore.
     }} />
 
     {[
-      { dir: 'languages',  items: [['Java', '#FF3B3B'], ['TypeScript', '#F03242'], ['C#', '#E02434'], ['Python', '#C71F2E'], ['C', '#A81828']] },
+      { dir: 'languages',  items: [['Java', '#FF3B3B'], ['Go', '#F03242'], ['TypeScript', '#E02434'], ['C#', '#C71F2E'], ['Python', '#A81828'], ['C', '#8E1420']] },
       { dir: 'frameworks', items: [['Spring', '#FF3B3B'], ['Maven', '#E02434']] },
       { dir: 'web',        items: [['HTML', '#FF3B3B'], ['CSS', '#E02434']] },
-      { dir: 'databases',  items: [['PostgreSQL', '#FF3B3B']] },
-      { dir: 'system',     items: [['Linux', '#FF3B3B'], ['Fedora', '#E02434']] },
+      { dir: 'databases',  items: [['PostgreSQL', '#FF3B3B'], ['MySQL', '#E02434']] },
+      { dir: 'infra',      items: [['AWS', '#FF3B3B'], ['Linux', '#E02434'], ['Fedora', '#C71F2E']] },
     ].map(function (row, r, all) {
       return (
         <div key={row.dir} style={{
